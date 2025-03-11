@@ -18,8 +18,12 @@ def challenge_03():
     bananas = [apples, oranges]
 
     challenge_03_helper(bananas)
+    print(bananas)
+    print(id(bananas))
 
 def challenge_03_helper(kiwis):
     mangos = 315
     kiwis.append(mangos)
     # 4
+    print(kiwis)
+    print(id(kiwis))
